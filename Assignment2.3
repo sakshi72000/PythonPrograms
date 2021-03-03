@@ -1,0 +1,23 @@
+# Assignment 2
+# Program 3
+def Fact(no):
+	i = 1
+	f = 1
+	for i in range(1,no+1):
+		f = f * i
+	return f
+	
+def main():
+	print("Enter the number:")
+	value = int(input())
+	
+	if value < 0:
+		print("Factorial cannot be found")
+	elif value == 0:
+		print("Factorial of 0 is 1")
+	else:
+		print("The Factorial is:",Fact(value))
+	
+	
+if __name__ == "__main__":
+	main()
