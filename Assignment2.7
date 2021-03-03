@@ -1,0 +1,17 @@
+# Assignment 2
+# Program 9
+def DigitCount(no):
+	digit = 0
+	while (no != 0):
+		
+		no = int(no / 10)
+		digit = digit + 1
+	
+	return digit
+def main():
+	print("Enter the number:")
+	value = int(input())
+	iret = DigitCount(value)
+	print("Number of digits are:",iret)
+if __name__ =="__main__":
+	main()
