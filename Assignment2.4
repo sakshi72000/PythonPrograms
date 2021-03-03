@@ -1,0 +1,14 @@
+# Assignment 2
+# Program 6
+def Pattern(no):
+	for i in range(no+1,0,-1):
+		for j in range(0,i-1):
+			print("*",end = " ")
+		print("\r")	
+def main():
+	print("Enter the number:")
+	value = int(input())
+	Pattern(value)
+	
+if __name__ == "__main__":
+	main()
