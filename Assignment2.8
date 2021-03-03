@@ -1,0 +1,15 @@
+# Assignment 2
+# Program 10
+def AddDigit(no):
+	sum = 0
+	while (no != 0):
+		sum = sum + int(no % 10)
+		no = int(no / 10)
+	return sum
+def main():
+	print("Enter the number:")
+	value = int(input())
+	iret = AddDigit(value)
+	print("Addition of digits are:",iret)
+if __name__ =="__main__":
+	main()
