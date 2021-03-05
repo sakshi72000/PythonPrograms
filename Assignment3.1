@@ -1,0 +1,25 @@
+# Assignment 3
+# Program 1
+
+def Add(val,list):
+	tot = 0
+	for i in range(0,len(list)):
+		tot = tot + list[i]
+	return tot
+	
+def main():
+	print("Enter the number of elements:")
+	value = int(input())
+	arr = list()
+	print("Enter the numbers in list:")
+	for i in range(0,int(value)):
+		no = input("value:")
+		arr.append(int(no))
+	print("Entered elements are:",arr)
+	ret = Add(value,arr)
+	print("The Addition of list elements are:",ret)
+if __name__ == "__main__":
+	main()
+	
+	
+	
