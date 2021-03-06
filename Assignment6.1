@@ -1,0 +1,27 @@
+class Demo:
+	value = 111
+	def __init__(self,i,j):
+		self.no1 = i
+		self.no2 = j
+	def fun(self):
+		print(self.no1)
+		print(self.no2)
+	def gun(self):
+		print(self.no1)
+		print(self.no2)
+	
+	
+def main():
+	print("Enter the first number:")
+	value1 = int(input())
+	print("Enter the second number:")
+	value2 = int(input())
+	obj1 = Demo(11,21)
+	obj2 = Demo(51,101)
+	print("value is :",obj1.value)
+	obj1.fun()
+	obj2.fun()
+	obj1.gun()
+	obj2.gun()
+if __name__ == "__main__":
+	main()
