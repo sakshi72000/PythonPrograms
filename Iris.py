@@ -1,3 +1,6 @@
+# Machine learning
+# Program for iris dataset
+
 from sklearn.datasets import load_iris
 import numpy as np
 from sklearn import tree
