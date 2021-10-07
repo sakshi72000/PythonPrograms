@@ -1,5 +1,5 @@
 # Assignment 1
-# Program 5
+# Program 5 : Program to display the numbers 
 
 def Display():
 	iCnt = 10
