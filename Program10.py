@@ -1,5 +1,5 @@
 # Assignment 1
-# Program 10
+# Program 10 : Program to accept the string the and count the length of string
 
 def Name(nam):
 	len(nam)
