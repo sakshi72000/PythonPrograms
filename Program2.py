@@ -1,5 +1,5 @@
 # Assignment 1
-# Program 2
+# Program 2 : Program check the number is even or odd
 
 def ChkNum(no):
 	if no % 2 == 0:
