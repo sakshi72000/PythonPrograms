@@ -1,5 +1,11 @@
 # Assignment 1
-# Program 8
+# Program 8 : Program to print the pattern
+#Input : 4
+# Output :
+#         *
+#         *
+#         *
+#         *
 
 def Print(no):
 	iCnt = 0
