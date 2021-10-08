@@ -1,5 +1,5 @@
 # Assignment 1
-# Program 7
+# Program 7 : Program to find the number is divisible by 5
 
 def Divisible(no):
 	if no % 5 == 0:
