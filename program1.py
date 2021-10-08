@@ -1,5 +1,5 @@
 # Assignment 1
-# Program 1
+# Program 1 : Program to print Hello on screen
 
 def fun():
 	print("Hello")
