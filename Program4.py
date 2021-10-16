@@ -1,5 +1,5 @@
 # Assignment 1
-# Program 4
+# Program 4 : Program to Display the characters in given range
 
 def Display(no):
 	i = 0
