@@ -1,5 +1,5 @@
 # Assignment 1
-# Problem 6
+# Problem 6 : Program to display the number is possitive negative or zero
 
 def ChkNum(no):
 	if no < 0:
